@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0e1320" />
+  <title>Omkar Borade | Full Stack Developer & AI Enthusiast</title>
+  <meta name="description" content="Omkar Borade – Full Stack Developer skilled in MERN Stack, Python, AI/ML, and Data Engineering. Building modern, scalable web applications." />
+  <meta property="og:title" content="Omkar Borade | Full Stack Developer" />
+  <meta property="og:description" content="Full Stack Developer skilled in MERN Stack, Python, AI/ML, and Data Engineering." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Omkar Borade | Full Stack Developer" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%233b82f6'/><text x='50' y='68' font-size='50' font-family='Arial' font-weight='bold' fill='white' text-anchor='middle'>OB</text></svg>" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Skip to content -->
+  <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+  <!-- ─── NAVBAR ─────────────────────────────────────────── -->
+  <nav class="nav-bar" id="navbar">
+    <div class="nav-container">
+      <a class="nav-brand" href="#hero">
+        <span class="nav-brand__logo">OB</span>
+      </a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox" />
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation">
+        <span></span>
+      </label>
+
+      <ul class="nav-links">
+        <li><a href="#hero" class="nav-link nav-active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#certifications" class="nav-link">Certifications</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li class="nav-divider" aria-hidden="true"></li>
+        <li class="nav-social">
+          <a href="https://www.linkedin.com/in/omkar-borade-46a323263" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <i class="fab fa-linkedin" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="nav-social">
+          <a href="https://github.com/OmkarBorade12" target="_blank" rel="noopener" aria-label="GitHub">
+            <i class="fab fa-github" aria-hidden="true"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ─── MAIN CONTENT ───────────────────────────────────── -->
+  <main id="content" class="main-content" role="main">
+
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="hero-bg-grid"></div>
+      <div class="hero-bg-glow hero-bg-glow--1"></div>
+      <div class="hero-bg-glow hero-bg-glow--2"></div>
+
+      <div class="hero-inner">
+        <div class="hero-text">
+          <p class="hero-eyebrow">
+            <span class="eyebrow-dot"></span>
+            Available for opportunities
+          </p>
+          <h1 class="hero-name">Omkar<br /><span class="hero-name--accent">Borade</span></h1>
+          <p class="hero-role">Full Stack Developer &amp; AI Enthusiast</p>
+          <p class="hero-tagline">
+            Building production-ready web applications with the MERN Stack,
+            crafting AI-powered solutions, and turning ideas into impactful digital experiences.
+          </p>
+          <div class="hero-badges">
+            <span class="badge badge--blue"><i class="fas fa-code"></i> MERN Stack</span>
+            <span class="badge badge--purple"><i class="fas fa-brain"></i> GenAI / RAG</span>
+            <span class="badge badge--teal"><i class="fas fa-database"></i> Data Engineering</span>
+          </div>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn--primary" id="view-projects-btn">
+              <i class="fas fa-rocket"></i> View Projects
+            </a>
+            <a href="#contact" class="btn btn--ghost" id="contact-btn">
+              <i class="fas fa-paper-plane"></i> Get in Touch
+            </a>
+          </div>
+          <div class="hero-social">
+            <a href="https://www.linkedin.com/in/omkar-borade-46a323263" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-link">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/OmkarBorade12" target="_blank" rel="noopener" aria-label="GitHub" class="social-link">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="mailto:boradeomkar36@gmail.com" aria-label="Email" class="social-link">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-avatar-wrap">
+            <div class="hero-avatar-ring hero-avatar-ring--outer"></div>
+            <div class="hero-avatar-ring hero-avatar-ring--inner"></div>
+            <div class="hero-avatar">
+              <img src="profile.png" alt="Omkar Borade" />
+            </div>
+            <!-- Floating tech chips -->
+            <div class="tech-chip tech-chip--1"><i class="fab fa-react"></i> React</div>
+            <div class="tech-chip tech-chip--2"><i class="fab fa-node-js"></i> Node.js</div>
+            <div class="tech-chip tech-chip--3"><i class="fab fa-python"></i> Python</div>
+            <div class="tech-chip tech-chip--4"><i class="fas fa-brain"></i> AI/ML</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll indicator -->
+      <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+        <i class="fas fa-chevron-down"></i>
+      </a>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section about-section" id="about">
+      <div class="section-inner">
+        <div class="section-header">
+          <p class="section-eyebrow">Get to know me</p>
+          <h2 class="section-title">About Me</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-text">
+            <p class="about-lead">
+              I'm a passionate Full Stack Developer from <strong>Nashik, India</strong>,
+              currently pursuing my B-Tech in Computer Engineering at Sandip University.
+            </p>
+            <p>
+              With hands-on experience in the MERN stack, I specialize in building dynamic,
+              responsive web applications that deliver real user value. Beyond web development,
+              I'm deeply interested in AI and Generative AI — I've built RAG-based systems and
+              explored NLP-driven solutions.
+            </p>
+            <p>
+              I thrive in collaborative environments, love learning new technologies, and bring
+              dedication and energy to every project I undertake. Currently seeking challenging
+              opportunities where I can contribute, grow, and make a meaningful impact.
+            </p>
+            <div class="about-info-grid">
+              <div class="about-info-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Nashik, Maharashtra, India</span>
+              </div>
+              <div class="about-info-item">
+                <i class="fas fa-graduation-cap"></i>
+                <span>B-Tech Computer Engineering</span>
+              </div>
+              <div class="about-info-item">
+                <i class="fas fa-envelope"></i>
+                <span>boradeomkar36@gmail.com</span>
+              </div>
+              <div class="about-info-item">
+                <i class="fas fa-phone"></i>
+                <span>+91 9373695329</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-stats">
+            <div class="stat-card">
+              <div class="stat-number">2+</div>
+              <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">3+</div>
+              <div class="stat-label">Projects Built</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">5+</div>
+              <div class="stat-label">Certifications</div>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">8.19</span>
+              <div class="stat-label">Current SGPA</div>
+            </div>
+
+            <!-- Education Timeline -->
+            <div class="edu-timeline">
+              <h3 class="edu-title"><i class="fas fa-graduation-cap"></i> Education</h3>
+              <div class="edu-item">
+                <div class="edu-dot"></div>
+                <div class="edu-content">
+                  <div class="edu-degree">B-Tech Computer Engineering</div>
+                  <div class="edu-school">Sandip University, Nashik</div>
+                  <div class="edu-meta"><span class="edu-grade">8.19 SGPA</span> · Present</div>
+                </div>
+              </div>
+              <div class="edu-item">
+                <div class="edu-dot"></div>
+                <div class="edu-content">
+                  <div class="edu-degree">Diploma in Computer Engineering</div>
+                  <div class="edu-school">MSBTE, Nashik</div>
+                  <div class="edu-meta"><span class="edu-grade">73%</span> · 2021 – 2023</div>
+                </div>
+              </div>
+              <div class="edu-item">
+                <div class="edu-dot"></div>
+                <div class="edu-content">
+                  <div class="edu-degree">12th – HSC</div>
+                  <div class="edu-school">Maharashtra State Board</div>
+                  <div class="edu-meta"><span class="edu-grade">78%</span> · 2019 – 2021</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="section skills-section" id="skills">
+      <div class="section-inner">
+        <div class="section-header">
+          <p class="section-eyebrow">What I work with</p>
+          <h2 class="section-title">Skills &amp; Technologies</h2>
+        </div>
+
+        <div class="skills-grid">
+
+          <div class="skill-category">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon"><i class="fas fa-globe"></i></div>
+              <h3>Web Development</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag"><i class="fab fa-react"></i> React.js</span>
+              <span class="skill-tag"><i class="fab fa-node-js"></i> Node.js</span>
+              <span class="skill-tag"><i class="fab fa-html5"></i> HTML5</span>
+              <span class="skill-tag"><i class="fab fa-css3-alt"></i> CSS3</span>
+              <span class="skill-tag"><i class="fab fa-js"></i> JavaScript</span>
+              <span class="skill-tag">Express.js</span>
+              <span class="skill-tag">Bootstrap</span>
+              <span class="skill-tag">REST APIs</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon skill-cat-icon--purple"><i class="fas fa-brain"></i></div>
+              <h3>AI / Machine Learning</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag skill-tag--purple">Generative AI</span>
+              <span class="skill-tag skill-tag--purple">RAG</span>
+              <span class="skill-tag skill-tag--purple">NLP</span>
+              <span class="skill-tag skill-tag--purple">Pandas</span>
+              <span class="skill-tag skill-tag--purple">NumPy</span>
+              <span class="skill-tag skill-tag--purple">OpenCV</span>
+              <span class="skill-tag skill-tag--purple">Beautiful Soup</span>
+              <span class="skill-tag skill-tag--purple">CrewAI</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon skill-cat-icon--teal"><i class="fas fa-code"></i></div>
+              <h3>Programming Languages</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag skill-tag--teal"><i class="fab fa-python"></i> Python</span>
+              <span class="skill-tag skill-tag--teal"><i class="fab fa-java"></i> Java</span>
+              <span class="skill-tag skill-tag--teal">C</span>
+              <span class="skill-tag skill-tag--teal">C++</span>
+              <span class="skill-tag skill-tag--teal"><i class="fab fa-js"></i> JavaScript</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon skill-cat-icon--orange"><i class="fas fa-database"></i></div>
+              <h3>Databases &amp; DevOps</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag skill-tag--orange">MySQL</span>
+              <span class="skill-tag skill-tag--orange">MongoDB</span>
+              <span class="skill-tag skill-tag--orange"><i class="fab fa-git-alt"></i> Git</span>
+              <span class="skill-tag skill-tag--orange"><i class="fab fa-github"></i> GitHub</span>
+              <span class="skill-tag skill-tag--orange"><i class="fab fa-microsoft"></i> Azure</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon skill-cat-icon--pink"><i class="fas fa-layer-group"></i></div>
+              <h3>Core CS Concepts</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag skill-tag--pink">OOP</span>
+              <span class="skill-tag skill-tag--pink">Data Structures</span>
+              <span class="skill-tag skill-tag--pink">Compiler Design</span>
+              <span class="skill-tag skill-tag--pink">Data Analysis</span>
+              <span class="skill-tag skill-tag--pink">Data Engineering</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section class="section experience-section" id="experience">
+      <div class="section-inner">
+        <div class="section-header">
+          <p class="section-eyebrow">My journey</p>
+          <h2 class="section-title">Work Experience</h2>
+        </div>
+
+        <div class="timeline">
+
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="timeline-icon"><i class="fas fa-briefcase"></i></div>
+              <div class="timeline-line"></div>
+            </div>
+            <div class="exp-card">
+              <div class="exp-card-header">
+                <div>
+                  <h3 class="exp-role">Full Stack Developer <span class="exp-stack">(MERN Stack)</span></h3>
+                  <p class="exp-company"><i class="fas fa-building"></i> CODEVOCADO PVT. Ltd</p>
+                </div>
+                <div class="exp-meta">
+                  <span class="exp-badge exp-badge--current"><i class="fas fa-circle"></i> 2024</span>
+                  <span class="exp-location"><i class="fas fa-map-marker-alt"></i> Remote, India</span>
+                </div>
+              </div>
+              <ul class="exp-bullets">
+                <li>Developed and deployed dynamic, responsive web applications using <strong>React.js, Node.js, HTML, and CSS</strong>, ensuring seamless performance across devices.</li>
+                <li>Integrated <strong>REST APIs</strong> to deliver real-time data functionality, strengthening scalability and platform efficiency.</li>
+                <li>Applied <strong>UI/UX best practices</strong> to create intuitive navigation and visually appealing layouts, resulting in improved user satisfaction.</li>
+                <li>Utilized <strong>Git/GitHub</strong> for version control and collaborative development, maintaining clean code and streamlined workflows.</li>
+              </ul>
+              <div class="exp-tech-row">
+                <span class="exp-tech">React.js</span>
+                <span class="exp-tech">Node.js</span>
+                <span class="exp-tech">REST APIs</span>
+                <span class="exp-tech">Git/GitHub</span>
+                <span class="exp-tech">CSS</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="timeline-icon"><i class="fas fa-laptop-code"></i></div>
+              <div class="timeline-line"></div>
+            </div>
+            <div class="exp-card">
+              <div class="exp-card-header">
+                <div>
+                  <h3 class="exp-role">Web Developer</h3>
+                  <p class="exp-company"><i class="fas fa-building"></i> NPIT Solutions PVT. Ltd</p>
+                </div>
+                <div class="exp-meta">
+                  <span class="exp-badge"><i class="fas fa-calendar"></i> 2022</span>
+                  <span class="exp-location"><i class="fas fa-map-marker-alt"></i> Nashik, India</span>
+                </div>
+              </div>
+              <ul class="exp-bullets">
+                <li>Built and optimized interactive web pages using <strong>HTML, CSS, JavaScript, and Bootstrap</strong>, focusing on responsive design and cross-browser compatibility.</li>
+                <li>Executed multiple front-end projects, refining expertise in <strong>modular design, reusable components</strong>, and performance optimization.</li>
+                <li>Collaborated with senior developers to translate client requirements into functional designs, strengthening problem-solving and teamwork skills.</li>
+                <li>Gained hands-on experience in <strong>rapid prototyping and iterative development</strong>, laying a strong foundation for full-stack capabilities.</li>
+              </ul>
+              <div class="exp-tech-row">
+                <span class="exp-tech">HTML</span>
+                <span class="exp-tech">CSS</span>
+                <span class="exp-tech">JavaScript</span>
+                <span class="exp-tech">Bootstrap</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="section projects-section" id="projects">
+      <div class="section-inner">
+        <div class="section-header">
+          <p class="section-eyebrow">What I've built</p>
+          <h2 class="section-title">Featured Projects</h2>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- Project 1 -->
+          <article class="project-card project-card--featured" id="project-rag-career">
+            <div class="project-card-glow"></div>
+            <div class="project-header">
+              <div class="project-icon project-icon--purple">
+                <i class="fas fa-robot"></i>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/OmkarBorade12" target="_blank" rel="noopener" class="project-link-btn" aria-label="GitHub">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <div class="project-badge">Featured · AI / RAG</div>
+            <h3 class="project-title">Adaptive Career Mentor</h3>
+            <p class="project-desc">
+              An AI-driven career guidance system using Retrieval-Augmented Generation (RAG) to deliver
+              personalized recommendations. Implemented NLP models for analyzing user queries and
+              retrieving relevant career pathways from a dynamic knowledge base.
+            </p>
+            <ul class="project-highlights">
+              <li>RAG pipeline for personalized career recommendations</li>
+              <li>NLP-powered query analysis &amp; knowledge retrieval</li>
+              <li>REST API integration for scalable service delivery</li>
+            </ul>
+            <div class="project-tech-row">
+              <span class="project-tech">Python</span>
+              <span class="project-tech">RAG</span>
+              <span class="project-tech">NLP</span>
+              <span class="project-tech">REST APIs</span>
+              <span class="project-tech">MongoDB</span>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card" id="project-number-plate">
+            <div class="project-card-glow project-card-glow--teal"></div>
+            <div class="project-header">
+              <div class="project-icon project-icon--teal">
+                <i class="fas fa-car"></i>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/OmkarBorade12" target="_blank" rel="noopener" class="project-link-btn" aria-label="GitHub">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <div class="project-badge project-badge--teal">Computer Vision</div>
+            <h3 class="project-title">Number Plate Extraction System</h3>
+            <p class="project-desc">
+              An automated image processing solution using OpenCV and Python to detect and extract
+              vehicle number plates, enhancing automation and accuracy in traffic monitoring systems.
+            </p>
+            <ul class="project-highlights">
+              <li>Accurate detection under varying lighting &amp; angles</li>
+              <li>Real-time video stream processing</li>
+              <li>Image preprocessing pipeline with ML classification</li>
+            </ul>
+            <div class="project-tech-row">
+              <span class="project-tech">Python</span>
+              <span class="project-tech">OpenCV</span>
+              <span class="project-tech">Image Processing</span>
+              <span class="project-tech">Machine Learning</span>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card" id="project-jurist-portal">
+            <div class="project-card-glow project-card-glow--blue"></div>
+            <div class="project-header">
+              <div class="project-icon project-icon--blue">
+                <i class="fas fa-balance-scale"></i>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/OmkarBorade12" target="_blank" rel="noopener" class="project-link-btn" aria-label="GitHub">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <div class="project-badge project-badge--blue">Full Stack</div>
+            <h3 class="project-title">Adequate Jurist Portal</h3>
+            <p class="project-desc">
+              A web-based legal information platform enabling users to access case details, legal
+              resources, and documentation efficiently. Features modern UI/UX, secure authentication,
+              and robust database management.
+            </p>
+            <ul class="project-highlights">
+              <li>Responsive dashboards with modern UI/UX principles</li>
+              <li>Secure authentication &amp; role-based access control</li>
+              <li>Full MERN stack with Bootstrap for rapid UI</li>
+            </ul>
+            <div class="project-tech-row">
+              <span class="project-tech">MongoDB</span>
+              <span class="project-tech">Express.js</span>
+              <span class="project-tech">React.js</span>
+              <span class="project-tech">Node.js</span>
+              <span class="project-tech">Bootstrap</span>
+              <span class="project-tech">REST APIs</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS SECTION -->
+    <section class="section certs-section" id="certifications">
+      <div class="section-inner">
+        <div class="section-header">
+          <p class="section-eyebrow">Recognized achievements</p>
+          <h2 class="section-title">Certifications</h2>
+        </div>
+
+        <div class="certs-grid">
+
+          <div class="cert-card" id="cert-crewai">
+            <div class="cert-icon cert-icon--purple">
+              <i class="fas fa-robot"></i>
+            </div>
+            <div class="cert-content">
+              <h3 class="cert-name">Multi AI Agent Systems with CrewAI</h3>
+              <p class="cert-issuer">DeepLearning.AI</p>
+            </div>
+            <div class="cert-badge"><i class="fas fa-check-circle"></i> Certified</div>
+          </div>
+
+          <div class="cert-card" id="cert-google-arcade">
+            <div class="cert-icon cert-icon--blue">
+              <i class="fab fa-google"></i>
+            </div>
+            <div class="cert-content">
+              <h3 class="cert-name">Google Arcade Facilitator Program</h3>
+              <p class="cert-issuer">Google Cloud</p>
+            </div>
+            <div class="cert-badge"><i class="fas fa-check-circle"></i> Certified</div>
+          </div>
+
+          <div class="cert-card" id="cert-data-analytics">
+            <div class="cert-icon cert-icon--teal">
+              <i class="fas fa-chart-bar"></i>
+            </div>
+            <div class="cert-content">
+              <h3 class="cert-name">Google Data Analytics</h3>
+              <p class="cert-issuer">Google / Coursera</p>
+            </div>
+            <div class="cert-badge"><i class="fas fa-check-circle"></i> Certified</div>
+          </div>
+
+          <div class="cert-card" id="cert-web-dev">
+            <div class="cert-icon cert-icon--orange">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <div class="cert-content">
+              <h3 class="cert-name">Web Developer Certification</h3>
+              <p class="cert-issuer">NPIT Solutions Pvt. Ltd</p>
+            </div>
+            <div class="cert-badge"><i class="fas fa-check-circle"></i> Certified</div>
+          </div>
+
+          <div class="cert-card" id="cert-mern">
+            <div class="cert-icon cert-icon--green">
+              <i class="fab fa-node-js"></i>
+            </div>
+            <div class="cert-content">
+              <h3 class="cert-name">MERN Stack Developer</h3>
+              <p class="cert-issuer">Codevocado Pvt. Ltd</p>
+            </div>
+            <div class="cert-badge"><i class="fas fa-check-circle"></i> Certified</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EXTRA CURRICULAR -->
+    <section class="section extras-section" id="extras">
+      <div class="section-inner">
+        <div class="section-header">
+          <p class="section-eyebrow">Beyond the code</p>
+          <h2 class="section-title">Extra-Curricular</h2>
+        </div>
+        <div class="extras-grid">
+          <div class="extra-card">
+            <div class="extra-icon"><i class="fas fa-laptop"></i></div>
+            <h3>Continuous Learning</h3>
+            <p>Actively expanding expertise in web development, emerging technologies, and problem-solving skills through continuous self-learning and online courses.</p>
+          </div>
+          <div class="extra-card">
+            <div class="extra-icon"><i class="fas fa-code-branch"></i></div>
+            <h3>Hackathons & Competitions</h3>
+            <p>Participated in college fests, hackathons, and technical competitions — showcasing creativity, teamwork, and innovation under pressure.</p>
+          </div>
+          <div class="extra-card">
+            <div class="extra-icon"><i class="fas fa-users"></i></div>
+            <h3>Event Volunteering</h3>
+            <p>Volunteered in organizing college events and workshops, demonstrating leadership, planning, and strong communication abilities.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section contact-section" id="contact">
+      <div class="section-inner">
+        <div class="contact-card">
+          <div class="contact-glow"></div>
+          <div class="contact-content">
+            <p class="section-eyebrow">Let's connect</p>
+            <h2 class="contact-title">Ready to Work Together?</h2>
+            <p class="contact-desc">
+              I'm actively looking for exciting opportunities in Full Stack Development,
+              AI/ML, and Data Engineering. Whether you have a project in mind or just want to
+              connect — my inbox is always open!
+            </p>
+            <div class="contact-actions">
+              <a href="mailto:boradeomkar36@gmail.com" class="btn btn--primary btn--large" id="email-btn">
+                <i class="fas fa-envelope"></i> boradeomkar36@gmail.com
+              </a>
+              <a href="https://www.linkedin.com/in/omkar-borade-46a323263" target="_blank" rel="noopener" class="btn btn--outline btn--large" id="linkedin-btn">
+                <i class="fab fa-linkedin"></i> LinkedIn Profile
+              </a>
+              <a href="tel:+919373695329" class="btn btn--outline btn--large" id="phone-btn">
+                <i class="fas fa-phone"></i> +91 9373695329
+              </a>
+            </div>
+            <div class="contact-social-row">
+              <a href="https://github.com/OmkarBorade12" target="_blank" rel="noopener" class="contact-social-link" aria-label="GitHub">
+                <i class="fab fa-github"></i> GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="nav-brand__logo">OB</span>
+        <span class="footer-name">Omkar Borade</span>
+      </div>
+      <p class="footer-copy">
+        © 2024 Omkar Borade · Built with <i class="fas fa-heart footer-heart"></i> · Full Stack Developer
+      </p>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/omkar-borade-46a323263" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/OmkarBorade12" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="mailto:boradeomkar36@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
